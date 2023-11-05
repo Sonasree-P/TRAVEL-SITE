@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header session starts -->
+    <div class="home">
+    <header class="header">
+      <section class="flex">
+        <a href="index.html" class="logo">Travia</a>
+        <nav class="navbar">
+          <a href="index.html">home</a>
+          <a href="about.html">about</a>
+          <a href="tours.html">tours</a>
+          <a href="desination.html">destination</a>
+          <a href="contact.html">contact</a>
+        </nav>
+
+
+        <div id="menu-btn" ><i class="fa-solid fa-bars"></i></div>
+      </section>
+    </header>
+
+     <!-- header section ends -->
+
+       <!-- Home section starts  -->
+
+       <div class="container">
+        
+          <form action="" method="post">
+            <h3>Search your Tour</h3>
+            <p>where to</p>
+            <input type="text"  name="address" required maxlength="50" placeholder="Enter tour location" class="box" required>
+            <p>when to</p>
+            <input type="date" name="date" class="box" required>
+            <p>How many</p>
+            <input type="number" name="guests" min="1" max="10" maxlength="2" placeholder="Number of guest" required class="box">
+            <input type="submit" value="search tour" name="search" class="btn">
+          </form>
+        </section>
+        
+       </div>
+       </div>
+        
+       <!-- Home sectin ends -->
+
+
+
+
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
